@@ -1,0 +1,11 @@
+* * * * * $SCRIPT_PATH
+0-59 - minutes
+0-23 - hours
+1-31 - days
+1-12 - monthes
+0-6 - days of week (7 can be sunday, but not standard); 0 - sunday
+
+*/10 - every 10th
+
+*/20 * * * 1-5 - At every 20th minute on every day-of-week from Monday through Friday
+*/20 * * * 5-7 - At every 20th minute on every day-of-week from Friday through Sunday (Non standard! May not work with every cron)
