@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "#!/bin/bash" > ~/test-script.sh
-echo "echo \"hello \$(date)\" >> ~/test-file" >> ~/test-script.sh
+echo "echo \"hello \$(date)\" >> ~/test-file-\$(date +\"%d-%m-%Y\")" >> ~/test-script.sh
 
 chmod +x ~/test-script.sh
 
